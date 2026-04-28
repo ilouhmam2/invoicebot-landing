@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvoiceBot | Automatisez vos relances de factures</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans">
+
+    <header class="py-16 px-6 text-center bg-white border-b border-slate-200">
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-4">
+            Récupérez vos impayés <span class="text-blue-600">sans lever le petit doigt</span>.
+        </h1>
+        <p class="text-xl text-slate-600 max-w-2xl mx-auto mb-8">
+            InvoiceBot envoie automatiquement des relances polies mais fermes à vos clients. Gagnez 5h de stress par mois.
+        </p>
+        <a href="#signup" class="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-700 transition">
+            👉 Rejoindre la liste d'attente
+        </a>
+    </header>
+
+    <section class="py-16 px-6 max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6">Marre de chasser vos paiements ?</h2>
+        <p class="text-lg text-slate-600">
+            Un freelance perd en moyenne <strong>500€ à 2000€ par mois</strong> à cause des factures jamais payées ou en retard. Relancer manuellement est dégradant et chronophage.
+        </p>
+    </section>
+
+    <section class="py-16 bg-slate-100 px-6">
+        <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-xl shadow-sm text-center">
+                <div class="text-4xl mb-4">⚡</div>
+                <h3 class="font-bold mb-2">Relance Auto</h3>
+                <p class="text-slate-600">Séquences automatiques à J+3, J+7 et J+14 après l'échéance.</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-sm text-center">
+                <div class="text-4xl mb-4">💰</div>
+                <h3 class="font-bold mb-2">+20% de CA</h3>
+                <p class="text-slate-600">78% des factures sont payées après seulement 2 relances automatiques.</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-sm text-center">
+                <div class="text-4xl mb-4">🤖</div>
+                <h3 class="font-bold mb-2">Zéro Config</h3>
+                <p class="text-slate-600">Importez votre CSV, InvoiceBot s'occupe du reste. Aucune technique requise.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 px-6 max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10">Ils attendent le lancement...</h2>
+        <div class="grid md:grid-cols-2 gap-6 text-left">
+            <div class="italic border-l-4 border-blue-600 pl-4 py-2">
+                "Avant, je passais mes dimanches à rédiger des mails de relance. J'ai hâte que cet outil sorte !"
+                <p class="mt-2 font-bold not-italic">— Thomas, Designer Freelance</p>
+            </div>
+            <div class="italic border-l-4 border-blue-600 pl-4 py-2">
+                "Le concept est simple et répond exactement à mon problème de trésorerie."
+                <p class="mt-2 font-bold not-italic">— Julie, Rédactrice Web</p>
+            </div>
+        </div>
+        <p class="mt-8 text-blue-600 font-semibold italic">Rejoignez 47 freelances déjà inscrits.</p>
+    </section>
+
+    <section class="py-16 bg-blue-600 text-white text-center px-6">
+        <h2 class="text-3xl font-bold mb-4">Un prix simple, pour les freelances.</h2>
+        <div class="text-5xl font-extrabold mb-4">19€<span class="text-xl font-normal">/mois</span></div>
+        <p class="mb-8 opacity-90">3 factures suivies gratuites pour tester. Puis illimité.</p>
+    </section>
+
+    <section id="signup" class="py-16 px-6 max-w-xl mx-auto">
+        <div class="text-center mb-10">
+            <h2 class="text-3xl font-bold mb-4">Prêt à être payé à temps ?</h2>
+            <p class="text-slate-600">Inscrivez-vous pour être averti du lancement et bénéficier de -50% le premier mois.</p>
+        </div>
+
+        <form action="#" method="POST" class="flex flex-col gap-4">
+            <input type="email" placeholder="votre@email.com" required class="p-4 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <button type="submit" class="bg-blue-600 text-white py-4 rounded-lg font-bold hover:bg-blue-700 transition">
+                🔔 M'avertir du lancement
+            </button>
+            <p class="text-xs text-slate-500 text-center">🔒 Pas de spam. Un seul email quand c'est prêt.</p>
+        </form>
+    </section>
+
+</body>
+</html>
