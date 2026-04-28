@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merci ! Votre inscription est confirmée — InvoiceBot</title>
+    <meta name="description" content="Vous êtes inscrit sur la liste d'attente InvoiceBot. Téléchargez gratuitement votre modèle d'email de relance.">
+    <meta name="robots" content="noindex">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Inscription confirmée — InvoiceBot">
+    <meta property="og:description" content="Vous êtes sur la liste d'attente.">
+    <meta property="og:type" content="website">
+    
+    <!-- Plausible -->
+    <script defer data-domain="ilouhmam2.github.io" src="https://plausible.io/js/script.outbound-links.js"></script>
+    
+    <!-- Google Ads Conversion Tracking (à configurer) -->
+    <!-- Global site tag (gtag.js) - Google Ads -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-CONVERSION_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-CONVERSION_ID');
+      // Event de conversion
+      gtag('event', 'conversion', {
+          'send_to': 'AW-CONVERSION_ID/CONVERSION_LABEL',
+          'value': 1.0,
+          'currency': 'EUR'
+      });
+    </script>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 48px 40px;
+            max-width: 560px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+        }
+        .emoji-big {
+            font-size: 4em;
+            margin-bottom: 16px;
+        }
+        h1 {
+            font-size: 1.8em;
+            color: #1a1a2e;
+            margin-bottom: 12px;
+        }
+        .subtitle {
+            color: #555;
+            font-size: 1.05em;
+            margin-bottom: 28px;
+        }
+        .bonus-box {
+            background: #f0f7ff;
+            border-radius: 12px;
+            padding: 28px;
+            margin: 24px 0;
+            text-align: left;
+        }
+        .bonus-box h2 {
+            font-size: 1.2em;
+            color: #1a1a2e;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+        .email-template {
+            background: white;
+            border: 1px dashed #667eea;
+            border-radius: 8px;
+            padding: 20px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #333;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            margin: 16px 0;
+        }
+        .btn-copy {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 10px 24px;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            margin-top: 8px;
+        }
+        .btn-copy:hover { background: #5a67d8; }
+        .share-section {
+            margin-top: 28px;
+            padding-top: 24px;
+            border-top: 1px solid #eee;
+        }
+        .share-section h3 {
+            font-size: 1em;
+            color: #444;
+            margin-bottom: 12px;
+        }
+        .share-btns {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .share-btns a {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+        .twitter { background: #1da1f2; }
+        .linkedin { background: #0077b5; }
+        .whatsapp { background: #25d366; }
+        .question-box {
+            margin-top: 28px;
+            text-align: left;
+        }
+        .question-box h3 {
+            font-size: 1em;
+            color: #444;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+        .question-box textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 0.95em;
+            min-height: 80px;
+            resize: vertical;
+        }
+        .question-box button {
+            margin-top: 8px;
+            width: 100%;
+            padding: 12px;
+            background: #1a1a2e;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .footer-text {
+            margin-top: 24px;
+            font-size: 0.85em;
+            color: #888;
+        }
+        .footer-text a {
+            color: #667eea;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="emoji-big">🎉</div>
+        <h1>Vous êtes sur la liste !</h1>
+        <p class="subtitle">Vous serez averti en priorité dès que <strong>InvoiceBot</strong> est disponible. D'ici là, voici un cadeau pour vous.</p>
+
+        <div class="bonus-box">
+            <h2>📧 Votre modèle d'email de relance</h2>
+            <p style="color: #555; font-size: 0.95em; margin-bottom: 12px;">Copiez-collez ce modèle dans Gmail ou Outlook dès aujourd'hui :</p>
+            
+            <div class="email-template" id="emailTemplate">
+Bonjour [Prénom du client],
+
+J'espère que vous allez bien.
+
+Je vous écris pour vous rappeler la facture n°[N° facture] d'un montant de [Montant] €, dont la date d'échéance était le [Date].
+
+Si le paiement est déjà en cours, merci d'ignorer ce message.
+
+Dans le cas contraire, pourriez-vous me tenir informé(e) de la date prévue de règlement ? Cela m'aide beaucoup pour ma gestion de trésorerie.
+
+Vous trouverez la facture ci-jointe.
+
+Bien cordialement,
+[Votre prénom]
+            </div>
+            
+            <button class="btn-copy" onclick="copyTemplate()">📋 Copier le modèle</button>
+            <p id="copyFeedback" style="color: #2e7d32; font-size: 0.85em; margin-top: 8px; display: none;">✅ Copié dans le presse-papiers !</p>
+        </div>
+
+        <div class="share-section">
+            <h3>Connaissez un freelance dans la même situation ?</h3>
+            <div class="share-btns">
+                <a href="https://twitter.com/intent/tweet?text=Je%20viens%20de%20d%C3%A9couvrir%20InvoiceBot%20:%20un%20outil%20qui%20automatise%20les%20relances%20de%20factures.%20Si%20tu%20en%20as%20marre%20de%20courir%20apr%C3%A8s%20tes%20paiements,%20inscris-toi%20!&url=https://ilouhmam2.github.io/invoicebot-landing/" class="twitter" target="_blank">🐦 Twitter</a>
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://ilouhmam2.github.io/invoicebot-landing/" class="linkedin" target="_blank">💼 LinkedIn</a>
+                <a href="https://wa.me/?text=Je%20viens%20de%20d%C3%A9couvrir%20InvoiceBot%20:%20outil%20pour%20automatiser%20les%20relances%20de%20factures.%20https://ilouhmam2.github.io/invoicebot-landing/" class="whatsapp" target="_blank">📱 WhatsApp</a>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <h3>💡 Une question pour vous (30 secondes) :</h3>
+            <p style="color: #666; font-size: 0.9em; margin-bottom: 12px;">Quel est votre plus gros blocage pour faire payer vos clients à temps ?</p>
+            <textarea placeholder="Ex: J'ai peur de paraître trop insistant... ou Mes clients sont des grandes boîtes avec des délais de 60 jours..." id="feedbackText"></textarea>
+            <button onclick="sendFeedback()">Envoyer ma réponse (anonyme)</button>
+            <p id="feedbackThanks" style="color: #2e7d32; font-size: 0.9em; margin-top: 8px; display: none;">Merci ! Votre retour nous aide énormément à construire le bon outil.</p>
+        </div>
+
+        <p class="footer-text">
+            🔒 Aucun spam. Un seul email pour le lancement.<br>
+            <a href="https://ilouhmam2.github.io/invoicebot-landing/">← Retour à l'accueil</a>
+        </p>
+    </div>
+
+    <script>
+        function copyTemplate() {
+            const text = document.getElementById('emailTemplate').innerText;
+            navigator.clipboard.writeText(text).then(function() {
+                document.getElementById('copyFeedback').style.display = 'block';
+                setTimeout(() => {
+                    document.getElementById('copyFeedback').style.display = 'none';
+                }, 3000);
+            });
+        }
+
+        function sendFeedback() {
+            const text = document.getElementById('feedbackText').value;
+            if (!text.trim()) return;
+            
+            // Envoi via Formspree (même endpoint que le formulaire principal)
+            fetch('https://formspree.io/f/VOTRE_ID_ICI', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ 
+                    message: text,
+                    source: 'page_merci_question',
+                    email: new URLSearchParams(window.location.search).get('email') || 'inconnu'
+                })
+            }).then(() => {
+                document.getElementById('feedbackThanks').style.display = 'block';
+                document.getElementById('feedbackText').disabled = true;
+            }).catch(err => {
+                console.error(err);
+                // Même si l'envoi échoue, on remercie l'utilisateur
+                document.getElementById('feedbackThanks').style.display = 'block';
+            });
+        }
+    </script>
+</body>
+</html>
